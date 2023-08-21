@@ -11,7 +11,7 @@ let myserver = myhttp.createServer(
     if ( myrequest.url === "/superSecretPasscode" ) {
       mytext = "Access granted! Welcome into my web server!";
     } else {
-      mytext = "Access denied!";
+      mytext = "Access has been denied!";
     }
     myresponse.writeHead( 200, { "Content-Type": "text/plain" } );
 
